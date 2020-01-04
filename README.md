@@ -9,26 +9,26 @@ The following are my projects to date, in **reverse chronological order** (most 
 ### 2019 Projects
 <br>
 #### Capstone Project: Predicting Whether Insurance Underwiting Gain will be Negative
-##### *Regression | Classification | Unsupervised |<a href="https://www.github.com/irwinwei73/GA-DSI-Capstone" target="_blank">> Link to project repository</a>*
-Project write-up
+##### *Regression | Classification | Unsupervised |<a href="https://www.github.com/irwinwei/GA-DSI-Capstone" target="_blank">> Link to project repository</a>*
+Project write-up to be added shortly.
 
 <br>
 #### Project 4: Predicting the Presence of West Nile Virus
-##### *Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-04" target="_blank">> Link to project repository</a>*
-Project 4 write-up
+##### *Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-04" target="_blank">> Link to project repository</a>*
+Project write-up to be added shortly.
 
 <br> 
 #### Project 3: Classifying Text according to their Sub-Reddits
-##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-03" target="_blank">> Link to project repository</a>*
+##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-03" target="_blank">> Link to project repository</a>*
 The objective was to build an NLP model to analyze the posts from 2 sub-reddits and determine which sub-reddit a given post belonged to. The sub-reddits selected were "Tales from the Customer" and "Tales from your Server".<br><br>
 Approximately 1,000 posts were scraped from each Sub-Reddit.
 
 <br> 
 #### Project 2: Predicting Housing Prices in Ames, Iowa (USA)
-##### *Regression |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
-Project 2 write-up
+##### *Regression |<a href="https://www.github.com/irwinwei/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
+Project write-up to be added shortly.
 
 <br> 
 #### Project 1: Analysing SAT and ACT Participation Rates
-##### *Exploratory Data Analysis |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-01" target="_blank">> Link to project repository</a>*
-Project 1 write-up
+##### *Exploratory Data Analysis |<a href="https://www.github.com/irwinwei/GA-DSI-Project-01" target="_blank">> Link to project repository</a>*
+Project write-up to be added shortly.
