@@ -24,11 +24,8 @@ Project 4 write-up
 ##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-03" target="_blank">> Link to project repository</a>*
 The objective was to build an NLP model to analyze the posts from 2 subreddits and determine which one a post belonged to. The subreddits selected for the project were:
 
-- <a href="https://www.reddit.com/r/TalesFromTheCustomer" target="_blank">r/TalesFromTheCustomer</a>
-- <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a>
-
-**r/TalesFromTheCustomer** comprises accounts of poor customer service encountered by contributors.<br>
-**r/TalesFromYourServer** comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered.<br>
+- <a href="https://www.reddit.com/r/TalesFromTheCustomer" target="_blank">r/TalesFromTheCustomer</a> (comprises accounts of poor customer service encountered by contributors)
+- <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a> (comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered)
 
 The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
 <br><br>
