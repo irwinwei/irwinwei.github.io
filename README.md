@@ -25,9 +25,10 @@ The objective was to build an NLP model to analyze the posts from 2 subreddits a
 - <a href="https://www.reddit.com/r/TalesFromTheCustomer" target="_blank">r/TalesFromTheCustomer</a> (comprises accounts of poor customer service encountered by contributors)
 - <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a> (comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered)
 
-The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
-
-<br><br>
+The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge was to create a model that relied not only individual words, but also multi-word sequences (bi-grams, tri-grams etc) to distinguish between the posts. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.<br><br>
+The text was first pre-processed by removing stop-words and single-characters (if not a stop-word). Although lemmatization and stemming where subsequently applied, these steps appear to have a detrimental effect on the classification accuracy for this corpus.<br><br>
+Count and TF-IDF vectorizers were also used to transform the data prior to input into the classifiers. The classification models used were Logistic Regression and Naive Bayes (Multinomial).<br><br>
+The best results (accuracy, area under ROC curve) were achieved using TF-IDF vectorization and Naive Bayes (Multinomial) classifier.<br><br>
 
 #### Project 2: Predicting Housing Sale Prices in Ames, Iowa (USA)
 ##### *Regression |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
