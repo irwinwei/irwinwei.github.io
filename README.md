@@ -28,7 +28,7 @@ The objective was to build an NLP model to analyze the posts from 2 subreddits a
 - <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a>
 
 **r/TalesFromTheCustomer** comprises accounts of poor customer service encountered by contributors.<br>
-**r/TalesFromYourServer** comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered at work.<br><br>
+**r/TalesFromYourServer** comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered.<br>
 
 The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
 <br><br>
