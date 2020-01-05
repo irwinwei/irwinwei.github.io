@@ -28,9 +28,11 @@ The objective was to build an NLP model to analyze the posts from 2 subreddits a
 The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
 <br>
 
-#### Project 2: Predicting Housing Prices in Ames, Iowa (USA)
+#### Project 2: Predicting Housing Sale Prices in Ames, Iowa (USA)
 ##### *Regression |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
-Project write-up to be added shortly.
+The objective was to develop a machine learning to predict the prices of houses based on data concerning attributes of each house, in the town of Ames in Iowa, USA. The data was downloaded from this <a href="https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/overview" target="_blank">project web page</a> and submitted to the Kaggle web page for scoring.<br><br>
+
+
 <br>
 
 #### Project 1: Analysing SAT and ACT Participation Rates
