@@ -12,12 +12,14 @@ The following are projects to date, in **reverse chronological order** (most rec
 #### Capstone Project: Predicting Whether Insurance Underwiting Gain will be Negative
 ##### *Regression | Classification | Unsupervised |<a href="https://www.github.com/irwinwei73/GA-DSI-Capstone" target="_blank">> Link to project repository</a>*
 Project write-up to be added shortly.
-<br>
+
+<br><br>
 
 #### Project 4: Predicting the Presence of West Nile Virus
 ##### *Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-04" target="_blank">> Link to project repository</a>*
 Project write-up to be added shortly.
-<br>
+
+<br><br>
 
 #### Project 3: Classifying Text according to their SubReddits
 ##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-03" target="_blank">> Link to project repository</a>*
@@ -27,12 +29,14 @@ The objective was to build an NLP model to analyze the posts from 2 subreddits a
 - <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a> (comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered)
 
 The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
+
 <br><br>
 
 #### Project 2: Predicting Housing Prices in Ames, Iowa (USA)
 ##### *Regression |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
 Project write-up to be added shortly.
-<br>
+
+<br><br>
 
 #### Project 1: Analysing SAT and ACT Participation Rates
 ##### *Exploratory Data Analysis |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-01" target="_blank">> Link to project repository</a>*
