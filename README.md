@@ -26,14 +26,14 @@ The objective was to build an NLP model to analyze the posts from 2 subreddits a
 - <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a> (comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered)
 
 The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
-<br>
+
+<br><br>
 
 #### Project 2: Predicting Housing Sale Prices in Ames, Iowa (USA)
 ##### *Regression |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
 The objective was to develop a machine learning to predict the prices of houses based on data concerning attributes of each house, in the town of Ames in Iowa, USA. The data was downloaded from this <a href="https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/overview" target="_blank">project web page</a> and submitted to the Kaggle web page for scoring.<br><br>
-
-
-<br>
+The training data comprised 2,015 rows and 81 columns (which included the target "Sale Price"). The test data comprised 879 rows. The columns were a mixture of continuous, discrete ordered (ordinal) and discrete unordered (nominal) data. Preparing the data for training required thoughtful normalization and imputation. An iterative process of feature engineering using Lasso and Ridge regressions was also employed to determine those feature that had the most effect on the Sale Price.<br><br>
+The final prediction model was submitted to Kaggle and returned a decent score of 31,996 which is based on the root mean-squared error (RMSE) between the predicted and actual values.<br><br>
 
 #### Project 1: Analysing SAT and ACT Participation Rates
 ##### *Exploratory Data Analysis |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-01" target="_blank">> Link to project repository</a>*
