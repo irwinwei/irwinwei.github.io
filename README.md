@@ -22,12 +22,16 @@ Project 4 write-up
 
 #### Project 3: Classifying Text according to their SubReddits
 ##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-03" target="_blank">> Link to project repository</a>*
-The objective was to build an NLP model to analyze the posts from 2 subreddits and determine which one a post belonged to. The subreddits selected for the project were [r/TalesFromTheCustomer](https://www.reddit.com/r/TalesFromTheCustomer) and [r/TalesFromYourServer](https://www.reddit.com/r/TalesFromYourServer).<br>
-'r/TalesFromTheCustomer' posts generally comprise accounts of poor customer service encountered by contributors.<br>
-'r/TalesFromYourServer' posts mainly comprise contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered at work.<br>
-The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart.<br>
-About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
-<br>
+The objective was to build an NLP model to analyze the posts from 2 subreddits and determine which one a post belonged to. The subreddits selected for the project were:
+
+- <a href="https://www.reddit.com/r/TalesFromTheCustomer" target="_blank">r/TalesFromTheCustomer</a>
+- <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a>
+
+**r/TalesFromTheCustomer** comprises accounts of poor customer service encountered by contributors.<br>
+**r/TalesFromYourServer** comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered at work.<br><br>
+
+The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge is to create a model that relies not only individual words, but also multi-word sequences to tell the posts apart. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.
+<br><br>
 
 #### Project 2: Predicting Housing Prices in Ames, Iowa (USA)
 ##### *Regression |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-02" target="_blank">> Link to project repository</a>*
