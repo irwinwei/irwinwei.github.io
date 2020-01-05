@@ -4,9 +4,9 @@ You have reached my project portfolio page which continues to grow. I was most r
 #### <a style="font-weight:bold" href="https://www.linkedin.com/in/irwinwei" target="_blank">Learn more about me or get in touch via LinkedIn</a>
 
 The following are projects to date, in **reverse chronological order** (most recent at the top).
+<br>
 
 ### 2019 Projects
-<br>
 
 #### Capstone Project: Predicting Whether Insurance Underwiting Gain will be Negative
 ##### *Regression | Classification | Unsupervised |<a href="https://www.github.com/irwinwei73/GA-DSI-Capstone" target="_blank">> Link to project repository</a>*
@@ -16,7 +16,7 @@ Project write-up to be added shortly.
 #### Project 4: Predicting the Presence of West Nile Virus
 ##### *Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-04" target="_blank">> Link to project repository</a>*
 Project write-up to be added shortly.
-<br>
+<br><br>
 
 #### Project 3: Classifying Text according to their SubReddits
 ##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-03" target="_blank">> Link to project repository</a>*
