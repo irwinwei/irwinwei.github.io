@@ -36,4 +36,6 @@ Project write-up to be added shortly.
 
 #### Project 1: Analysing SAT and ACT Participation Rates
 ##### *Exploratory Data Analysis |<a href="https://www.github.com/irwinwei73/GA-DSI-Project-01" target="_blank">> Link to project repository</a>*
-The objective was to carry out an analysis of the 2017 and 2018 participation rates for the Scholastic Aptitude Test (SAT) and American College Test (ACT) by college students in the US. The analysis first required the data to be cleaned, visualized and explored with specific questions in mind.
+The objective was to carry out an analysis of the 2017 and 2018 participation rates and the component scores for the Scholastic Aptitude Test (SAT) and American College Test (ACT) by college students in the US. The analysis first required the data to be cleaned, visualized and explored with specific questions in mind. The normality of the distributions of the component scores were also explored.<br><br>
+Lastly, based on external research as to what may have caused the differences in participation rates of the test in 2017 and 2018, we produced recommendations to increase the SAT participation rate in specific states.<br><br>
+The group presentation is for the state of Iowa, whereas my personal analysis was for the state of Missouri.
