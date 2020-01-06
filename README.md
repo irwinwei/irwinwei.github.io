@@ -15,8 +15,10 @@ Project write-up to be added shortly.
 
 #### *Project 4: Predicting the Presence of West Nile Virus*
 ##### *Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-04" target="_blank">> Link to project repository (see README file)</a>*
-Project write-up to be added shortly.
-<br><br>
+We were required to study known cases of West Nile Virus presence in Chicago and to predict, based on weather and pesticide usage information, when the virus would be present i.e. the positive case being that the virus was present, and the negative case being that the virus was not present. The data used for this project was downloaded from this <a href="https://www.kaggle.com/c/predict-west-nile-virus/" target="_blank">Kaggle competition web page</a> and submitted to Kaggle web page for scoring. The score for classification was based on the area under the "ROC" curve (AUC).<br><br>
+Based on the results from the model, a cost-benefit analysis was conducted to determine what mitigation measures ought to be taken to minimize the presence of the virus and its impact to the public.<br><br>
+Apart from cleaning the data, a detailed analysis helped to establish which were the factors that most strongly influenced the presence of the virus. We carried out research regarding the relevant species of mosquitoes and the methodology/processes used to detect the presence of the virus. From the foregoing, we were also able to relate the data with the 'real world situation' to identify limitations in the data, and to inform what assumptions would be best employed in dealing with the matter.<br><br>
+Of the classification models evaluated (Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, Extra Trees, Gradient Boost, Ada Boost), the best result (Kaggle score of 0.75) was obtained by using the Ada Boost Classifier with 100 estimators and a 0.73 learning rate.<br><br>
 
 #### *Project 3: Classifying Text according to their SubReddits*
 ##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-03" target="_blank">> Link to project repository (see README file)</a>*
