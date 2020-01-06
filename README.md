@@ -6,11 +6,20 @@ You have reached my project portfolio page which continues to grow. I was very r
 The following are my projects to date, in **reverse chronological order** (most recent at the top).
 <br><br>
 
+### 2020
+Watch this space ...
+<br>
+
 ### 2019
 
 #### *Capstone Project: Predicting Whether Insurance Underwriting Gain will be Negative*
 ##### *Regression | Classification | Unsupervised |<a href="https://www.github.com/irwinwei/GA-DSI-Capstone" target="_blank">> Link to project repository (see README file)</a>*
-As my capstone project for the Data Science Immersive program at General Assembly, I chose to take a deep dive into the annual returns submitted by Singapore-registered General Insurers to the Monetary Authority of Singapore (MAS). These are publicly available <a href="https://www.mas.gov.sg/statistics/insurance-statistics/insurance-company-returns" target="_blank">here</a>. Submission of these returns is mandatory and captures the financial data as at 31 December of the reporting year. At the time of the project, the latest data available was for 31 December 2018. <br><br>
+As my capstone project for the Data Science Immersive program at General Assembly, I took a deep dive into the annual returns submitted by Singapore-registered General Insurers to the Monetary Authority of Singapore (MAS). The returns for year 2005 and after are publicly available <a href="https://www.mas.gov.sg/statistics/insurance-statistics/insurance-company-returns" target="_blank">here</a>. Submission of these returns is mandatory and captures the financial data as at 31 December of the reporting year. At the time of the project, the latest data available was for 31 December 2018. <br><br>
+For each General Insurer and for every year that they are active, their underwriting and investment performance (for Singapore-based risks) is summarized in a table named "Form 6 (SIF)" in the report, organized by insurance class (e.g. Fire, Motor, Health, Engineering etc). For each insurance class, a breakdown of financial components is provided i.e. premiums earned, claims paid, liabilities booked, management expenses, distribution expenses etc. The underwriting gain/loss and net investment income for each class are thus derived accordingly. <br><br>
+The data was extracted from the PDF documents downloaded from MAS and processed for use by models for regression, classification and unsupervised learning (clustering).<br><br>
+The main challenge faced was the coarse-granularity of this publicly available data, since this was just a 'snap shot' of the net result of the previous 12 months' activities. As such, it was difficult to cluster (unsupervised learning) the data in an interpretable/explainable way, and to apply a regression to predict the underwriting gain/loss.  A major factor was likely the disparity between the premiums collection schedule (typically on an annual basis) and claims paid/reserved schedule (which could span between weeks to years to resolve i.e. different time-scale from the corresponding premiums). <br><br>
+However, the classification models (Logistic Regression, Extra Trees performed best) were able to perform better than the baseline accuracy of 68% with optimal tuning.<br><br>
+As such, I am confident that far better results can be obtained (including regression) with finer-granularity data that General Insurers have on-hand, such as detailed claim statistics and other policy-specific data.<br><br>
 
 #### *Project 4: Predicting the Presence of West Nile Virus*
 ##### *Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-04" target="_blank">> Link to project repository (see README file)</a>*
