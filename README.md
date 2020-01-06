@@ -6,12 +6,11 @@ You have reached my project portfolio page which continues to grow. I was most r
 The following are projects to date, in **reverse chronological order** (most recent at the top).
 <br><br>
 
-### 2019 Projects
+### 2019
 
 #### *Capstone Project: Predicting Whether Insurance Underwriting Gain will be Negative*
 ##### *Regression | Classification | Unsupervised |<a href="https://www.github.com/irwinwei/GA-DSI-Capstone" target="_blank">> Link to project repository (see README file)</a>*
-Project write-up to be added shortly.
-<br><br>
+As my capstone project for the Data Science Immersive program at General Assembly, I chose to take a deep dive into the annual returns submitted by Singapore-registered General Insurers to the Monetary Authority of Singapore (MAS). These are publicly available <a href="https://www.mas.gov.sg/statistics/insurance-statistics/insurance-company-returns" target="_blank">here</a>. Submission of these returns is mandatory and captures the financial data as at 31 December of the reporting year. At the time of the project, the latest data available was for 31 December 2018. <br><br>
 
 #### *Project 4: Predicting the Presence of West Nile Virus*
 ##### *Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-04" target="_blank">> Link to project repository (see README file)</a>*
@@ -24,8 +23,8 @@ Of the classification models evaluated (Logistic Regression, K-Nearest Neighbors
 ##### *Web Scraping | Natural Language Processing | Classification |<a href="https://www.github.com/irwinwei/GA-DSI-Project-03" target="_blank">> Link to project repository (see README file)</a>*
 The objective was to build an NLP model to analyze the posts from 2 subreddits and determine which one a post belonged to. The subreddits selected for the project were:
 
-- <a href="https://www.reddit.com/r/TalesFromTheCustomer" target="_blank">r/TalesFromTheCustomer</a> (comprises accounts of poor customer service encountered by contributors)
-- <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a> (comprises contributions from people who work(ed) as waiters/waitresses regarding unreasonable customers they encountered)
+- <a href="https://www.reddit.com/r/TalesFromTheCustomer" target="_blank">r/TalesFromTheCustomer</a> (accounts of poor customer service encountered by contributors)
+- <a href="https://www.reddit.com/r/TalesFromYourServer" target="_blank">r/TalesFromYourServer</a> (accounts from people who work(ed) as waiters or waitresses about unreasonable customers)
 
 The lexicon/vocabulary in both types of posts are very similar. Hence, the challenge was to create a model that relied not only individual words, but also multi-word sequences (bi-grams, tri-grams etc) to distinguish between the posts. About 1,000 posts from each subreddit were scraped from the web, resulting in approximately 2,000 rows of data to work with.<br><br>
 The text was first pre-processed by removing stop-words and single-characters (if not a stop-word). Although lemmatization and stemming where subsequently applied, these steps appear to have a detrimental effect on the classification accuracy for this corpus. Count and TF-IDF vectorizers were also used to transform the data prior to input into the classifiers. The classification models used were Logistic Regression and Naive Bayes (Multinomial).<br><br>
