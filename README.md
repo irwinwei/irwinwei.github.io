@@ -7,7 +7,13 @@ The following are my projects to date, in **reverse chronological order** (most 
 <br><br>
 
 ### 2020
-More projects on the way.
+
+#### *Visualization of data used for Capstone Project (2019)*
+##### *Tableau | > Link to project repository will be provided soon*
+Visualization of the data that was downloaded from the Monetary Authority of Singapore. The purpose is to obtain insights regarding the General Insurance market in Singapore, and to explore if there are lessons to be learnt from the best performing (and most consistent) companies.
+
+<br><br>
+*More projects to come ...*
 <br><br>
 
 ### 2019
