@@ -1,3 +1,4 @@
+
 ## Introduction
 You have reached my project portfolio page which continues to grow. I was very recently working in General Insurance (claims) as a Loss Adjuster - we go by other names like "adjuster", "surveyor" or "assessor". If you ever filed an insurance claim for your house, building, shop unit, warehouse, office, power plant, construction site, oil refinery, ship or aircraft, you would likely have met one of us. I have prior experience in consulting, software development and product development.
 
@@ -8,9 +9,9 @@ The following are my projects to date, in **reverse chronological order** (most 
 
 ### 2020
 
-#### *Visualization of data used for Capstone Project (2019)*
-##### *Tableau | > Link to project repository will be provided soon*
-Visualization of the data that was downloaded from the Monetary Authority of Singapore. The purpose is to obtain insights regarding the General Insurance market in Singapore, and to explore if there are lessons to be learnt from the best performing (and most consistent) companies.
+#### *Visualization of data used for the 2019 Capstone Project*
+##### *Public Tableau | > Will provide the link to the Tableau Public Gallery soon*
+Visualization of the data that was downloaded from the Monetary Authority of Singapore to train the machine learning model in the capstone project. The purpose of the visualization is to obtain insights regarding the General Insurance market in Singapore, and to explore the details of a couple of insurers, just because... we can.
 
 <br><br>
 *More projects to come ...*
